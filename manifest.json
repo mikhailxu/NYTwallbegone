@@ -1,0 +1,11 @@
+{
+  "content_scripts": [{
+      "js": ["nyt.js"],
+      "matches": ["http://www.nytimes.com/*"]
+    }],
+  "name": "open NYT",
+  "version": "1.0",
+  "description": "loads nty.js posted on hacker news",
+  "browser_action": {
+  }
+}
